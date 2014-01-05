@@ -9,7 +9,7 @@ use strict;
 use warnings;
 
 my $descr = 'Colorized now playing script for mpd';
-weechat::register('np', 'byte', '0.1', 'GPL3', $descr, '', '');
+weechat::register('np', 'stackptr', '0.1', 'GPL3', $descr, '', '');
 weechat::hook_command('np', $descr, '',
 "Settings:
 
