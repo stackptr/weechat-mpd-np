@@ -59,7 +59,7 @@ sub addColor {
   my %color_table = (white => "00", black => "01", darkblue => "02", darkgreen => "03", lightred => "04",
 		                 darkred => "05", magenta => "06", orange => "07", yellow => "08", lightgreen => "09",
 		                 cyan => "10", lightcyan => "11", lightblue => "12", lightmagenta => "13", gray => "14",
-		                 lightgray => 15);
+		                 lightgray => "15");
   
   # Make sure colors are either defined or defaults
   weechat::config_set_plugin("color.title", "lightmagenta") if weechat::config_get_plugin("color.title") eq "";
